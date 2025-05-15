@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class empmodel (models.Model):
-    ename = models.CharField(max_length=50 , blank=True)
+    ename = models.CharField(max_length=50)
     eage =  models.IntegerField()
     mail = models.CharField(max_length=100)
     ephno = models.CharField(max_length=50)
